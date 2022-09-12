@@ -1,0 +1,187 @@
+body {
+    background: #2F2F2F;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+#home_button {
+    position: absolute;
+    text-decoration: none;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    top: 3%;
+    left: 2%;
+    font-size: 140%;
+}
+
+#home_line {
+    position: absolute;
+    top: 8%;
+    width: 100%;
+}
+
+#Login {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    font-family: sans-serif;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+#Logout {
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    font-family: sans-serif;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#User {
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    font-family: sans-serif;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#first_rectangle_top {
+    position: absolute;
+    left: 3%;
+    right: 77%;
+    top: 20%;
+    bottom: 45%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#second_rectangle_top {
+    position: absolute;
+    left: 27%;
+    right: 53%;
+    top: 20%;
+    bottom: 45%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#third_rectangle_top {
+    position: absolute;
+    left: 53%;
+    right: 27%;
+    top: 20%;
+    bottom: 45%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#four_rectangle_top {
+    position: absolute;
+    left: 77%;
+    right: 3%;
+    top: 20%;
+    bottom: 45%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#first_rectangle_bottom {
+    position: absolute;
+    left: 3%;
+    right: 77%;
+    top: 60%;
+    bottom: 5%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#second_rectangle_bottom {
+    position: absolute;
+    left: 27%;
+    right: 53%;
+    top: 60%;
+    bottom: 5%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#third_rectangle_bottom {
+    position: absolute;
+    left: 53%;
+    right: 27%;
+    top: 60%;
+    bottom: 5%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+#four_rectangle_bottom {
+    position: absolute;
+    left: 77%;
+    right: 3%;
+    top: 60%;
+    bottom: 5%;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%);
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#auth {
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    font-family: sans-serif;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+#lost_password {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    font-family: sans-serif;
+    background: linear-gradient(223.42deg, #FFC700 -2.91%, #FAFF00 -2.9%, #D101D6 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+#auth_text {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    top: 10%;
+    left: 40%;
+}
+
+#auth_button {
+    position: absolute;
+    background: #2F2F2F;
+    color: white;
+    font-family: sans-serif;
+    font-size: 140%;
+    left: 47%;
+    top: 20%;
+}
